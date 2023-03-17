@@ -1,0 +1,77 @@
+Copyright (c) 2015, Axel Isaksson
+Copyright (c) 2015, F Lundevall
+
+If you're a student, and you have modified one or more files,
+you must add your name here.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------- // --------------------------------------
+The following files contains copied material from Axel Isaksson & F Lundevall
+* // core_stubs.c //
+  All code is copied, original file name: stubs.c
+  Used for initialization of the main Digilent 'chipKit™' hardware.
+
+* // Makefile //
+  All code is copied
+  Used for compiling C and Assembly files with the MCB32 compiler and transferring
+  the information to the Digilent 'chipKit™' hardware.
+
+* // config_chipkit.c // 
+  All code is copied, the origin of the code is from a file called 'mipslabfunc.c'
+  Used for initialization of the main Digilent 'chipKit™' hardware.
+
+* // immuno.h //
+  Contains copied headers for displaying string with credits and highscore after
+  game over, Only the first set of headers are copied. Copies origin from 'mipslab.h'
+  provided by Axel Isaksson, F Lundevall and KTH.
+
+* // config_oled.c //
+  The code in this file is not copied, with the exception of 3 sparesly used functions
+  referred to in the file. NOTE However, that the other code is inspired by the display
+  configuration file 'mipslabfunc.c' provided by Axel Isaksson, F Lundevall and 
+  KTH. The file is primarily based on the Digilent 'chipKIT™' Basic I/O Shield™
+  Reference Manual and SOLOMON SYSTECH OLED Common Driver information 'SSD1306'.
+
+* // assets_main.c //
+  Only the fist two buffers in this file, the textbuffer and the font buffer, are copied
+  from the 'mipslab.data' file provided by Axel Isaksson, F Lundevall at KTH.
+  These buffers are only used for the end credits displayed after game over!
+
+* // mipslabmain.c //
+  This file is not use by IMMUNOLAZER. It is only included as a reference for
+  copied code used for Digilent 'chipKit™' hardware initialization.
+
+* // mipslabfunc.c //
+  This file is not use by IMMUNOLAZER. It is only included as a reference for
+  copied code used for Digilent 'chipKit™' display characters.
+
+* // mipslabdata.c //
+  This file is not use by IMMUNOLAZER. It is only included as a reference for
+  copied code used for Digilent 'chipKit™' char buffers.
+
+* // Image Resources //
+  All image resources are created by Love Mitteregger, Creative Commons
+  Attribution 4.0 International applies.
+-------------------------------------- // --------------------------------------
